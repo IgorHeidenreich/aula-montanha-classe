@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package classe.aluno.montanha;
+
+/**
+ *
+ * @author 125111406984
+ */
+public class aluno {
+    public String nome;
+    private String RA;
+    private int nota;
+    
+    
+    public void inicializar (String nomeAluno, String ra, int not){
+      nome = nomeAluno;
+      RA = ra;
+      nota = not;
+    }
+    
+    public boolean media (){
+        return(nota>=21);
+    }
+    
+}
