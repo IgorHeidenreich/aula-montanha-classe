@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package classe.aluno.montanha;
+
+/**
+ *
+ * @author 125111406984
+ */
+public class ClasseAlunoMontanha {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        aluno  eu;
+        eu = new aluno();
+        eu.inicializar("Igor", "125406984", 30);
+        if (eu.media()){
+            System.out.println("Você passou "+eu.nome);
+        }   else{
+            System.out.println("Você não passou "+eu.nome);
+        }
+       
+        
+                
+    }
+    
+}
